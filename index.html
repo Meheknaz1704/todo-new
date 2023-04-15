@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="whole">
+    <div class="container"> <br>
+        <h1>To Do List</h1> <br>
+      <div class="row"> 
+          <div class="col-md-8">
+              <input type="text" placeholder="Write something" class="form-control" id="Task_input">
+          </div>
+          <div class="col-md-4">
+              <a href="#" class="btn btn-success" onclick="addEvent()">Add</a>
+          </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+        <ul class="list-group" id="tasks">
+            <li class="list-group-item">Task1<span  class="btn btn-danger btn-sm float-right remove_btn">Remove</span></li> 
+        </ul> 
+        
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
